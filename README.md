@@ -1,2 +1,2 @@
-# Rose-Library
-Smartest UI Library
+# Rose Library
+The Smartest UI Library
