@@ -13,7 +13,7 @@ local customName = loadstring(game:HttpGet('https://raw.githubusercontent.com/ku
 ```
 
 ### About
-Rose Library is a ui library coded by [kura](https://github.com/kuraise) and has many features that no other UI Library has.
+Rose Library is a UI library coded by [kura](https://github.com/kuraise) and has many features that no other UI Library has.
 
 ### Features
 #### 1. Load Color Settings From Http
