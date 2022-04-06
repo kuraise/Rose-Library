@@ -1,6 +1,11 @@
 # Rose Library
 The Smartest UI Library
 
+### Loadstring
+```lua
+local customName = loadstring(game:HttpGet('lib.com'))
+```
+
 ### About
 Rose Library is a ui library coded by [kura](https://github.com/kuraise) and has many features that no other UI Library has.
 
@@ -40,4 +45,4 @@ lib:LoadTheme('CS:GO') -- Adds UICorners and UIStroke is bigger
 ```
 
 ### Documentation
-**To head to the [documentation](https://documentation.com) click where it says 'Documentation' and you will see how to use Rose Library!**
+**To head to the [documentation](https://github.com/kuraise/Rose-Library/wiki) click where it says 'Documentation' and you will see how to use Rose Library!**
