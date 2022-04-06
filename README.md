@@ -1,6 +1,12 @@
 # Rose Library
 The Smartest UI Library
 
+### Sections
+* [Loadstring](#Loadstring)
+* [About](#About)
+* [Features](#Features)
+* [Documentation](#Documentation)
+
 ### Loadstring
 ```lua
 local customName = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
