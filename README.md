@@ -3,7 +3,7 @@ The Smartest UI Library
 
 ### Loadstring
 ```lua
-local customName = loadstring(game:HttpGet('lib.com'))
+local customName = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
 ```
 
 ### About
@@ -12,13 +12,13 @@ Rose Library is a ui library coded by [kura](https://github.com/kuraise) and has
 ### Features
 #### 1. Load Color Settings From Http
 ```lua
-local lib = loadstring(game:HttpGet('https://site.com/script.lua'))
-lib:LoadSettingsFromHTTP('https://site.com/item.json')
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
+lib:LoadSettingsFromHTTP('https://site.com/item.json') -- your own github page or site or whatever.
 ```
 
 #### 2. Load Color Settings From Lua JSON Format
 ```lua
-local lib = loadstring(game:HttpGet('https://site.com/script.lua'))
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
 local tb = {
   -- settings soon
 }
@@ -28,19 +28,19 @@ lib:LoadSettingsFromTable(tb)
 #### 3. Themes
 * Print Themes Names
 ```lua
-local lib = loadstring(game:HttpGet('https://site.com/script.lua'))
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
 lib:PrintThemesNames() -- prints the themes names
 ```
 
 * Modern Theme
 ```lua
-local lib = loadstring(game:HttpGet('https://site.com/script.lua'))
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
 lib:LoadTheme('Modern') -- Adds UICorners and UIStroke is bigger
 ```
 
 * CS:GO Theme
 ```lua
-local lib = loadstring(game:HttpGet('https://site.com/script.lua'))
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/kuraise/Rose-Library/main/Source/Source.lua'))
 lib:LoadTheme('CS:GO') -- Adds UICorners and UIStroke is bigger
 ```
 
